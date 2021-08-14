@@ -13,10 +13,13 @@
     />
   </head>
   <body>
-    <audio><embed src="music.mp3" loop="true" autostart="true" hidden="true" mastersound></audio>
+    <!-- <audio><embed src="music.mp3" loop="true" autostart="true" hidden="true" mastersound></audio> -->
+    <audio preload="auto" autoplay>
+      <source src="music.mp3" type="audio/mp3" />
+    </audio>
     <div class="relative w-screen h-screen">
       <div class="childClass logoChild">
-        <img src="logo.png" style="width: 36.0vw;">
+        <img src="logo.png" style="width: 36vw" />
       </div>
       <div class="grid-icosahedron h-full w-full bg-black"></div>
       <div class="childClass textChild">
