@@ -30,26 +30,14 @@ body {
   font-size: xx-large;
 }
 
-@media screen and (max-width: 320px) {
-  li {
-    display: inline-block;
-    list-style-type: none;
-    font-size: 20px;
-  }
-  .logoImg {
-    width: 1.5em;
-  }
+li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 4.0vh;
 }
 
-@media screen and (max-width: 2000px) {
-  li {
-    display: inline-block;
-    list-style-type: none;
-    font-size: 40px;
-  }
-  .logoImg {
-    width: 50px;
-  }
+.logoImg {
+  width: 1.5em;
 }
 
 li span {
