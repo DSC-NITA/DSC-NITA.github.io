@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700,900");
+
+body {
+  display: flex;
+  font-family: "Work Sans", sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: hsl(240, 8%, 8%);
+}
+
+.childClass {
+  position: absolute;
+}
+
+.logoChild {
+  padding-left: 2em;
+  top: 30px;
+}
+
+.textChild {
+  color: #fdfdfd;
+  bottom: 10px;
+  font-size: xx-large;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  // text-transform: uppercase;
+}
+
+li span {
+  display: block;
+}
