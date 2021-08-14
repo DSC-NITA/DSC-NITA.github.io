@@ -1,3 +1,5 @@
+const btn = document.getElementById("contBtn");
+
 (function () {
   const second = 1000,
     minute = second * 60,
@@ -23,14 +25,9 @@
 
       //do something later when date is reached
       if (distance < 0) {
-        let headline = document.getElementById("headline"),
-          countdown = document.getElementById("countdown"),
-          content = document.getElementById("content");
-
-        headline.innerText =
-          "In this hour, I do not believe that any darkness will endure"; //Todo: Change this
+        (countdown = document.getElementById("countdown")),
         countdown.style.display = "none";
-        content.style.display = "block";
+        btn.style.display = "block";
 
         clearInterval(x);
       }
