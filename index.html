@@ -15,6 +15,17 @@
     />
   </head>
   <body>
+    <script>
+      const isMobile = navigator.userAgentData.match(
+        /Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i
+      );
+
+      if (isMobile) {
+        window.alert(
+          "DSC NITA has so much to offer that we must request you to find a larger screen. You won't be disappointed."
+        );
+      }
+    </script>
     <div class="relative w-screen h-screen">
       <div class="childClass logoChild">
         <img src="logo.png" style="width: 40vw" />
