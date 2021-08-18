@@ -16,9 +16,7 @@
   </head>
   <body>
     <script>
-      const isMobile = navigator.userAgentData.match(
-        /Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i
-      );
+      const isMobile = navigator.userAgent.match(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile Safari|MicroMessenger/i);
 
       if (isMobile) {
         window.alert(
