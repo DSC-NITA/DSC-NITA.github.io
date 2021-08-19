@@ -6,7 +6,7 @@ const btn = document.getElementById("contBtn");
     hour = minute * 60,
     day = hour * 24;
 
-  let birthday = "Aug 19, 2021 17:15:00",
+  let birthday = "Aug 19, 2021 17:20:00",
     countDown = new Date(birthday).getTime(),
     x = setInterval(function () {
       let now = new Date().getTime(),
