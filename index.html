@@ -16,7 +16,9 @@
   </head>
   <body>
     <script>
-      const isMobile = navigator.userAgent.match(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile Safari|MicroMessenger/i);
+      const isMobile = navigator.userAgent.match(
+        /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile Safari|MicroMessenger/i
+      );
 
       if (isMobile) {
         window.alert(
@@ -29,6 +31,20 @@
         <img src="logo.png" style="width: 40vw" />
       </div>
       <audio src="/music.mp3" type="audio/mpeg" autoplay hidden></audio>
+      <!-- Remeber to delete this before going public -->
+      <div
+        class="childClass continueBtn flip-scale-up-diag-1"
+        style="display: none"
+        id="contBtn"
+      >
+        <a href="https://challenge.dscnita.ml">
+          <div class="button">
+            <span class="button__mask"></span>
+            <span class="button__text">Jump Off --></span>
+            <span class="button__text button__text--bis">Jump Off --></span>
+          </div>
+        </a>
+      </div>
       <div class="grid-icosahedron h-full w-full bg-black"></div>
       <div class="childClass textChild">
         <div class="container">
