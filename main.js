@@ -6,8 +6,8 @@ const btn = document.getElementById("contBtn");
     hour = minute * 60,
     day = hour * 24;
 
-  let birthday = "Aug 21, 2021 17:00:00",
-    countDown = new Date(birthday).getTime(),
+  let daemonDate = "Aug 21, 2021 17:00:00",
+    countDown = new Date(daemonDate).getTime(),
     x = setInterval(function () {
       let now = new Date().getTime(),
         distance = countDown - now;
