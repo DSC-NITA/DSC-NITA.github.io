@@ -44,3 +44,10 @@ audio.oncanplay = (e) => {
     console.log("Started audio playback");
   });
 };
+
+const challenge_btn = document.getElementById("challenge_btn");
+if (challenge_btn !== null) {
+  challenge_btn.onclick = () => {
+    window.location.href = "https://docs.google.com/forms/d/1yRuSJLVK52uElDZY4USoDn8TdP5X5Un5_B2nVBk6jMk/edit?usp=sharing";
+  };
+}
